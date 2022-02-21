@@ -21,7 +21,7 @@ export default function Layout(props: LayoutProps) {
         <Container as="main" className="py-4">
           {children}
         </Container>
-        <footer className="container max-w-6xl border-t text-center my-4 pt-4 text-sm text-zinc-700">
+        <footer className="container mx-auto max-w-6xl border-t text-center my-4 pt-4 text-sm text-zinc-700">
           <a
             href="https://github.com/mskoroglu/next-github-client"
             className="font-mono hover:underline"
