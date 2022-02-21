@@ -1,0 +1,60 @@
+.htmlContent {
+  @apply text-lg text-zinc-700 leading-relaxed bg-zinc-50 rounded-lg p-4 overflow-hidden;
+}
+
+.htmlContent p,
+.htmlContent ul,
+.htmlContent ol,
+.htmlContent blockquote {
+  @apply my-4;
+}
+
+.htmlContent blockquote {
+  @apply px-2 border-l-4 border-zinc-300 text-zinc-500;
+}
+
+.htmlContent a {
+  @apply hover:underline text-blue-600;
+}
+
+.htmlContent img,
+.htmlContent a {
+  @apply inline-flex;
+}
+
+.htmlContent ul {
+  @apply list-disc list-inside;
+}
+
+.htmlContent h1,
+.htmlContent h2,
+.htmlContent h3,
+.htmlContent h4,
+.htmlContent h5,
+.htmlContent h6 {
+  @apply my-4 leading-snug font-mono font-bold;
+}
+
+.htmlContent h1 {
+  @apply text-4xl;
+}
+
+.htmlContent h2 {
+  @apply text-3xl;
+}
+
+.htmlContent h3 {
+  @apply text-2xl;
+}
+
+.htmlContent h4 {
+  @apply text-xl;
+}
+
+.htmlContent h5 {
+  @apply text-lg;
+}
+
+.htmlContent pre {
+  @apply bg-zinc-100 p-2 overflow-auto rounded-lg text-sm;
+}
